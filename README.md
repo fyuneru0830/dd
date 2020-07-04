@@ -1,5 +1,8 @@
 # vps-dd
-
+# 介绍
+  因为许多云平台的系统不干净，或者不提供纯净windows，或者各种监控原因，要重装系统。使用dd包即可实现
+  有cent，debian，windows等等可以自己做也可以用别人做好的。
+  以下教程为实际测试结果，可靠，但是后续可能会有新的变化，所以失败的话看下面的参考网站自己学习。
 ```shell
 # 使用debian 9，其他os理论也可以，但是脚本开发者用的debian就debian吧，然后安装依赖
 apt-get install -y xz-utils openssl gawk file
