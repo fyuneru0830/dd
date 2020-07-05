@@ -10,7 +10,7 @@ wget https://raw.githubusercontent.com/fyuneru0830/dd/master/Install.sh && sudo 
 安装需要30分钟左右，安装好用Remote Desktop，用户名：administrator，密码：Vicer
 # 手动安装（不推荐）
 ```shell
-# 使用debian 9，其他os理论也可以，但是脚本开发者用的debian就debian吧，然后安装依赖
+# 使用debian7，其他os理论也可以，但是脚本开发者用的debian就debian吧，然后安装依赖
 apt-get install -y xz-utils openssl gawk file
 
 # 请勿直接复制粘贴注意修改以下事项
