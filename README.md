@@ -3,6 +3,7 @@ dd包是使用dd命令生成的完整复制文件，可以完整拷贝系统（w
 因此可以覆盖vps的linux系统更换成自己喜欢的任何系统。
 # 自动安装
 在**Debian7**输入以下命令（复制粘贴要完整！），按照脚本要求输入需要的！
+安装好就是Windows10 完整版！
 ```
 sudo apt-get install -y wget && wget https://raw.githubusercontent.com/fyuneru0830/dd/master/Install.sh && sudo chmod +x Install.sh && sudo bash Install.sh
 ```
