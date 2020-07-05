@@ -1,3 +1,7 @@
+# 介绍
+dd包是使用dd命令生成的完整复制文件，可以完整拷贝系统（windows，linux等）到单一文件，并且还原到任何环境下。
+因此可以覆盖vps的linux系统更换成自己喜欢的任何系统。
+
 ```shell
 # 使用debian 9，其他os理论也可以，但是脚本开发者用的debian就debian吧，然后安装依赖
 apt-get install -y xz-utils openssl gawk file
