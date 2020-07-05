@@ -25,7 +25,10 @@ wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/Li
 #然后用rdp（windows的话在cmd输入mstsc，mac的话在appstore下载remote desk top登陆，默认用户名 administrator 默认密码 Vicer）
 
 ```
-
+# 疑难杂症
+- 过了一两个小时还连接不上的话可能是出现了问题
+  -看vps后台的cpu使用率，如果还很高的话还在安装
+  -如果使用率很低还连不上的话以下顺序排查错误，检查3389端口有没有开，检查dd包还是否生效、检查内网ip地址，netmask，ipgate是否输入正确。还不行的话提交issue。
 # 参考网站
 
 https://ssr.tools/680
