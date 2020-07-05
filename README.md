@@ -5,7 +5,7 @@ dd包是使用dd命令生成的完整复制文件，可以完整拷贝系统（w
 推荐在**Debian7**
 需要手动输入*内网ip地址，内网ipgate，内网netmask*
 ```
-wget https://raw.githubusercontent.com/fyuneru0830/dd/master/Install.sh && sudo chmod +x Install.sh && sudo bash Install.sh
+apt-get install -y wget && wget https://raw.githubusercontent.com/fyuneru0830/dd/master/Install.sh && sudo chmod +x Install.sh && sudo bash Install.sh
 ```
 安装需要30分钟左右，安装好用Remote Desktop，用户名：administrator，密码：Vicer
 # 手动安装（不推荐）
