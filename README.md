@@ -4,14 +4,8 @@ dd包是使用dd命令生成的完整复制文件，可以完整拷贝系统（w
 # 自动安装
 在**Debian7**输入以下命令（复制粘贴要完整！），按照脚本要求输入需要的！
 安装好就是Windows10 完整版！
-
-1. 有内网地址的（如Google Cloud Platform，阿里云等）
 ```
 sudo apt-get install -y wget && wget https://raw.githubusercontent.com/fyuneru0830/dd/master/Install.sh && sudo chmod +x Install.sh && sudo bash Install.sh
-```
-2. 无内网地址的（云服务商基本无内网地址）
-```
-sudo apt-get install -y wget && wget https://raw.githubusercontent.com/fyuneru0830/dd/master/InstallSimple.sh && sudo chmod +x InstallSimple.sh && sudo bash InstallSimple.sh
 ```
 安装需要30分钟左右，安装好用Remote Desktop，用户名：administrator，密码：Vicer
 # 手动安装（不推荐）
